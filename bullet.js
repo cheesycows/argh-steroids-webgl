@@ -17,8 +17,8 @@ var Bullet = function (world) {
     Sprite.call(this, world);
 
     this.buffers = bulletBuffers;
-    this.scale = 2;
-    this.life = 500;
+    this.scale = 4;
+    this.life = 200;
 }
 
 Bullet.prototype = Object.create(Sprite.prototype); 
