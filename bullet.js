@@ -17,7 +17,7 @@ var Bullet = function (world) {
     Sprite.call(this, world);
 
     this.buffers = bulletBuffers;
-    this.scale = 4;
+    this.scale = 2;
     this.life = 200;
 }
 
