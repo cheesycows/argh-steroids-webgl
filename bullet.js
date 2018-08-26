@@ -39,7 +39,7 @@ Bullet.prototype.impact = function (other) {
     if (other instanceof Alien) {
         this.world.score += 500;
         other.terminate();
-        this.world.particles.explosion(100, 
+        this.world.particles.explosion(1000, 
                                        other.x, other.y, other.u, other.v);
     }
     else if (other instanceof Asteroid) {
