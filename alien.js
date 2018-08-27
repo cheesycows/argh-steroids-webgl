@@ -6,9 +6,9 @@
 var alienBuffers = [];
 
 function alienCreate() {
-    var vertices = [[1, 0], [-1, 0], [-0.7, 0],
-                    [-0.5, -0.2], [0.5, -0.2], [0.7, 0],
-                    [0.5, 0.4], [-0.5, 0.4], [-0.7, 0]];
+    var vertices = [[1, 0], [1, 0], [1, 0],
+                    [1, 0], [1, 0], [1, 0],
+                    [1, 0], [1, 0], [1, 0]];
 
     alienBuffers = buffersCreate(vertices);
 }
