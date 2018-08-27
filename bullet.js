@@ -6,7 +6,7 @@
 var bulletBuffers = [];
 
 function bulletCreate() {
-    var vertices = [[4, 0],  
+    var vertices = [[4, 7],  
                     [Math.cos(rad(120)), Math.sin(rad(120))],
                     [Math.cos(rad(240)), Math.sin(rad(240))]]
 
