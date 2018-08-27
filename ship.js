@@ -6,7 +6,7 @@
 var shipBuffers = [];
 
 function shipCreate() {
-    var vertices = [[1, 0],
+    var vertices = [[2, 0],
                     [Math.cos(rad(140)), Math.sin(rad(140))],
                     [-0.3, 0],
                     [Math.cos(rad(220)), Math.sin(rad(220))]]
